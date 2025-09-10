@@ -1,0 +1,127 @@
+# -- 主题选项 --
+# 这些选项控制主题的功能，并允许您自定义网站的显示方式。
+# 有关每个参数的更多详细信息，请参考主题文档。
+# https://mnjm.github.io/kayal/docs/configuration/#theme-parameters
+
+# [可选] 网站徽标图像相对于 assets/ 文件夹的路径。显示在页眉中的网站标题之前。最小尺寸：64x64 像素。
+logo = "logo.png"
+# 网站描述。
+description = "一个用来回顾思考，或者记录日常的blog"
+# [可选] 版权所有者名称。
+copyright = "版权所有，未经授权不得转载。转载请标明出处：arch.fan"
+# 是否根据视口优化图像。
+optimizeImg = true
+# 是否在代码块中启用复制按钮。
+enableCodeCopy = true
+# 显示点击后可在深色和浅色主题之间切换的图标。
+showThemeSwitcher = true
+# 起始默认主题。如果为 "auto"，则检测先前的偏好设置/系统主题。
+defaultTheme = "auto"  # 有效选项：light, dark, auto
+# 启用后，在菜单栏中突出显示当前菜单项。
+highlightCurrentMenu = true
+# 要在最近文章列表中显示的部分。如果未提供，则使用文章最多的部分。
+mainSections = ["posts"]
+# 是否删除页脚中的 Hugo 和主题归属信息。
+removeAttribution = true
+# 在页脚中添加最后构建日期（即最后更新日期）。
+lastUpdate = true
+# 是否在标题中显示锚点链接。可以通过页面特定的前置元数据中的 `showHeadingAnchors` 覆盖。
+showHeadingAnchors = true
+# 是否启用搜索功能。需要 JSON 输出才能正常工作。
+enableSearch = true
+
+# 网站搜索引擎验证标签。
+# [verification]
+# google = ""
+# bing = ""
+# pinterest = ""
+# yandex = ""
+
+# 主页设置
+[homepage]
+# 是否在主页上显示最近的项目。
+showRecent = true
+# 最近项目的标题标签。
+showRecentLabel = "最新文章"
+# 要显示的最近项目数量。
+showRecentItems = 4
+# 是否在最近部分的末尾显示一个指向 `showMoreDest` 的 "显示更多" 链接。
+showMore = true
+showMoreDest = "/posts"
+[homepage.profile]
+# [可选] 显示在主页顶部。
+headline = "👋 Welcome to my site"
+# [可选] 个人资料图像相对于 assets/ 文件夹的路径。最小尺寸：200x200 像素。
+image = "me.png"
+# 图像位置。
+where = "right"  # 选项：right, left, top
+
+# 文章设置
+[article]
+# 是否显示文章日期。
+showDate = true
+# 是否显示文章的修改日期。
+showModDate = true
+# 是否显示文章的阅读时间。
+showReadingTime = true
+# 是否显示前置元数据中提到的标签。
+showTags = true
+# 是否在文章页脚中显示上一篇/下一篇文章链接。
+showPagination = true
+# 是否反转上一篇/下一篇文章链接的方向。
+invertPagination = true
+# 是否在文章中显示目录。
+showToC = true
+# 页面加载时是否打开目录。
+openToC = false
+# 请查看 https://mnjm.github.io/kayal/docs/advanced-customization/#comments
+showComments = false
+# 是否显示面包屑导航。
+showBreadcrumbs = true
+
+# 列表模板设置
+[list]
+# 是否按年份对文章进行分组。
+groupByYear = false
+# 是否显示面包屑导航。
+showBreadcrumbs = false
+# 是否以卡片形式显示页面。
+cardView = true
+# 是否在列表卡片视图中显示缩略图。
+showThumbnail = true
+# 是否显示 RSS 链接。
+showRSS = true
+
+# 分类设置
+[taxonomy]
+# 是否显示每个分类术语的计数。
+showCount = true
+# 是否以卡片网格形式显示分类。
+cardView = true
+
+# 术语设置
+[term]
+# 是否按年份对文章进行分组。
+groupByYear = false
+# 是否显示面包屑导航。
+showBreadcrumbs = false
+# 是否以卡片形式显示页面。
+cardView = true
+# 是否显示 RSS 链接。
+showRSS = false
+
+# 社交链接
+[[social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com"
+
+[[social]]
+name = "Email"
+icon = "email"
+url = "mailto:name@example.com"
+
+[[social]]
+name = "Twitter / X"
+icon = "x-twitter"
+url = "https://x.com/sample"

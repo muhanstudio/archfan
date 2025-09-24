@@ -3,8 +3,6 @@ title: "SSH公钥认证配置指南：Windows到Linux服务器"
 date: 2025-09-15
 draft: false
 tags: ["SSH", "Linux", "Windows", "安全", "运维", "教程"]
-categories: ["技术教程"]
-description: "详细介绍如何配置从Windows客户端到Linux服务器的SSH公钥认证，实现无密码安全登录"
 ---
 
 ## **技术记录：配置从 Windows 客户端到 Linux 服务器的 SSH 公钥认证**
